@@ -1,0 +1,83 @@
+.header {
+    background-color: #0d121a;
+    /* background: linear-gradient( #121212 5%,#212121, #121212 95%); 标准的语法 */
+
+
+    /* background-image: radial-gradient(#212121 5%, #121212 ); */
+    /* border:2px solid;
+    border-width: 5px; 
+    border-color: #121212; */
+
+}
+
+.content{
+    background: #222222;
+    color: whitesmoke;
+    scrollbar-width: 0px;
+    overflow-y:hidden;
+    font-size: 24px;
+}
+.user-avator svg {
+    fill: #ff0000 !important;
+  }
+
+.el-menu--popup-right-start {
+    background: #121212 !important;
+}
+
+.sidebar-el-menu {
+    background: #121212 !important;
+}
+
+.el-menu-item {
+    background: #121212 !important;
+}
+
+
+.el-submenu__title:hover {
+    background-color: #212121!important;
+}
+
+.collapse-btn:hover {
+    background: #212121 !important;
+}
+
+.el-menu-item:hover {
+    outline: none;
+    background-color: #212121 !important;
+}
+
+.el-menu-item:focus {
+    outline: none;
+    background-color: #2e2e2e !important;
+}
+
+
+.plugins-tips {
+    background: #eef1f6;
+}
+
+.plugins-tips a {
+    color: #20a0ff;
+}
+
+.el-upload--text em {
+    color: #20a0ff;
+}
+
+.pure-button {
+    background: #20a0ff;
+}
+
+.tags-li.active {
+    border: 1px solid #409EFF;
+    background-color: #409EFF;
+}
+
+.message-title {
+    color: #20a0ff;
+}
+
+.collapse-btn:hover {
+    background: rgb(40, 52, 70);
+}
