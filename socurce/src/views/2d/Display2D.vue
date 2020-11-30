@@ -19,6 +19,11 @@ export default class Display2D extends Vue {
 
   private activated() {
     console.log("display 2d page activated");
+    this.$alert("abcdef","gggggggggggggggggggggggggggggggggggggggg",{
+      title:"123456",
+      message:`1235`,
+      type:"success",
+    });
   }
 
   private deactivated() {
