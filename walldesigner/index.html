@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>PlaneWallGenerator demo by Hanks</title>
+    <title>demo</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/iconfont.css">
@@ -34,17 +34,46 @@
             background-color: #0072f5;
             color: #ffffff;
             width: 50px;
-            height:50px;
+            height: 50px;
             line-height: 50px;
             font-size: 10px;
             text-align: center;
             justify-content: center;
         }
 
+        .ToolBox-Input {
+            text-align: center;
+            line-height: 32px;
+        }
 
+        .ToolBox-Input a {
+            float: left;
+            color: #ffffff;
+            margin-left: 9px;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            /* No support for these yet */
+            -o-user-select: none;
+            user-select: none;
+        }
 
+        .ToolBox-Input input {
+            height: 20px;
+            outline: none;
+            vertical-align: middle;
+            width: 30px;
+            background-color: #222222;
+            color: aliceblue;
+            border: 0px;
+            padding: 2px 5px 2px 5px;
+            margin: -3px 5px 0px 5px;
+        }
 
-
+        .ToolBox-Input input::-webkit-inner-spin-button {
+            -webkit-appearance: none !important;
+            margin: 0;
+        }
     </style>
 
 
@@ -78,6 +107,10 @@
         <i style="background-color: #0072f5; color: rgb(255, 255, 255);">右键单击取消选中</i>
 
         <button id="btnBuild" style="float: right;">生成</button>
+        <button id="btnParse" style="float: right;">解析</button>
+        <button id="btnRandom" style="float: right;">随机生成</button>
+        <button id="btnClean" style="float: right;">清空</button>
+        <button id="btnGoCenter" style="float: right;">回到中心</button>
     </div>
 
     <textarea id="output" style="width: 1595px; height: 100px;"></textarea>
@@ -88,6 +121,6 @@
 
 
 
-<script type="text/javascript" src="common.js?6e6a7be0e3fe6520f152"></script><script type="text/javascript" src="examples.js?6e6a7be0e3fe6520f152"></script></body>
+<script type="text/javascript" src="common.js?3da0cff3657d3f427690"></script><script type="text/javascript" src="examples.js?3da0cff3657d3f427690"></script></body>
 
 </html>
